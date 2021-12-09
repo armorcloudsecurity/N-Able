@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><Policy ID="1a584754-839a-4b3c-9d0f-c5d2f74fa1d7" Name="ARMORall" Description="Q2hlY2sgYWxsIG9mIEFybW9yJ3MgYWdlbnRzIHN0YXR1c2Vz" Version="2.10.0.19" RemoteCategory="0" ExecutionType="Local" MinimumPSVersionRequired="0.0.0">
+  <Object ID="{39bca308-66f4-4ff0-a8c2-53a6a7ed5788}" Type="{B6FA6D8B-EEAA-47A6-8463-7F9A4F5BBB6E}" Data="&lt;xml&gt;&lt;OutputParameters&gt;&lt;Parameter ParameterName=&quot;STATUSarmorCore&quot; Label=&quot;STATUSarmorCore&quot; ParameterType=&quot;string&quot; Value=&quot;Run PowerShell Script.STATUSarmorCore&quot; /&gt;&lt;Parameter ParameterName=&quot;STATUSarmorFilebeat&quot; Label=&quot;STATUSarmorFilebeat&quot; ParameterType=&quot;string&quot; Value=&quot;Run PowerShell Script.STATUSarmorFilebeat&quot; /&gt;&lt;Parameter ParameterName=&quot;STATUSarmorWinbeat&quot; Label=&quot;STATUSarmorWinbeat&quot; ParameterType=&quot;string&quot; Value=&quot;Run PowerShell Script.STATUSarmorWinbeat&quot; /&gt;&lt;Parameter ParameterName=&quot;STATUSarmorQualys&quot; Label=&quot;STATUSarmorQualys&quot; ParameterType=&quot;string&quot; Value=&quot;Run PowerShell Script.STATUSarmorQualys&quot; /&gt;&lt;Parameter ParameterName=&quot;STATUSarmorTrendAgent&quot; Label=&quot;STATUSarmorTrendAgent&quot; ParameterType=&quot;string&quot; Value=&quot;Run PowerShell Script.STATUSarmorTrendAgent&quot; /&gt;&lt;Parameter ParameterName=&quot;STATUSarmorTrendMonitor&quot; Label=&quot;STATUSarmorTrendMonitor&quot; ParameterType=&quot;string&quot; Value=&quot;Run PowerShell Script.STATUSarmorTrendMonitor&quot; /&gt;&lt;Parameter ParameterName=&quot;STATUSarmorTrendNotifier&quot; Label=&quot;STATUSarmorTrendNotifier&quot; ParameterType=&quot;string&quot; Value=&quot;Run PowerShell Script.STATUSarmorTrendNotifier&quot; /&gt;&lt;Parameter ParameterName=&quot;STATUSarmorTrendPlatform&quot; Label=&quot;STATUSarmorTrendPlatform&quot; ParameterType=&quot;string&quot; Value=&quot;Run PowerShell Script.STATUSarmorTrendPlatform&quot; /&gt;&lt;Parameter ParameterName=&quot;INSTALLEDarmorCore&quot; Label=&quot;INSTALLEDarmorCore&quot; ParameterType=&quot;string&quot; Value=&quot;Run PowerShell Script.INSTALLEDarmorCore&quot; /&gt;&lt;Parameter ParameterName=&quot;INSTALLEDarmorFilebeat&quot; Label=&quot;INSTALLEDarmorFilebeat&quot; ParameterType=&quot;string&quot; Value=&quot;Run PowerShell Script.INSTALLEDarmorFilebeat&quot; /&gt;&lt;Parameter ParameterName=&quot;INSTALLEDarmorWinbeat&quot; Label=&quot;INSTALLEDarmorWinbeat&quot; ParameterType=&quot;string&quot; Value=&quot;Run PowerShell Script.INSTALLEDarmorWinbeat&quot; /&gt;&lt;Parameter ParameterName=&quot;INSTALLEDarmorQualys&quot; Label=&quot;INSTALLEDarmorQualys&quot; ParameterType=&quot;string&quot; Value=&quot;Run PowerShell Script.INSTALLEDarmorQualys&quot; /&gt;&lt;Parameter ParameterName=&quot;INSTALLEDarmorTrendAgent&quot; Label=&quot;INSTALLEDarmorTrendAgent&quot; ParameterType=&quot;string&quot; Value=&quot;Run PowerShell Script.INSTALLEDarmorTrendAgent&quot; /&gt;&lt;Parameter ParameterName=&quot;INSTALLEDarmorTrendMonitor&quot; Label=&quot;INSTALLEDarmorTrendMonitor&quot; ParameterType=&quot;string&quot; Value=&quot;Run PowerShell Script.INSTALLEDarmorTrendMonitor&quot; /&gt;&lt;Parameter ParameterName=&quot;INSTALLEDarmorTrendNotifier&quot; Label=&quot;INSTALLEDarmorTrendNotifier&quot; ParameterType=&quot;string&quot; Value=&quot;Run PowerShell Script.INSTALLEDarmorTrendNotifier&quot; /&gt;&lt;Parameter ParameterName=&quot;INSTALLEDarmorTrendPlatform&quot; Label=&quot;INSTALLEDarmorTrendPlatform&quot; ParameterType=&quot;string&quot; Value=&quot;Run PowerShell Script.INSTALLEDarmorTrendPlatform&quot; /&gt;&lt;/OutputParameters&gt;&lt;/xml&gt;" />
+  <LinkManager xmlns:i="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://schemas.datacontract.org/2004/07/PolicyExecutor">
+    <hashset xmlns:d2p1="http://schemas.datacontract.org/2004/07/System">
+      <d2p1:TupleOfstringstringstringstring>
+        <d2p1:m_Item1>c68dec59-cf0a-455e-92a8-99ed3d5bf0d8.STATUSarmorCore</d2p1:m_Item1>
+        <d2p1:m_Item2>OutputObject</d2p1:m_Item2>
+        <d2p1:m_Item3></d2p1:m_Item3>
+        <d2p1:m_Item4>STATUSarmorCore</d2p1:m_Item4>
+      </d2p1:TupleOfstringstringstringstring>
+      <d2p1:TupleOfstringstringstringstring>
+        <d2p1:m_Item1>c68dec59-cf0a-455e-92a8-99ed3d5bf0d8.STATUSarmorFilebeat</d2p1:m_Item1>
+        <d2p1:m_Item2>OutputObject</d2p1:m_Item2>
+        <d2p1:m_Item3></d2p1:m_Item3>
+        <d2p1:m_Item4>STATUSarmorFilebeat</d2p1:m_Item4>
+      </d2p1:TupleOfstringstringstringstring>
+      <d2p1:TupleOfstringstringstringstring>
+        <d2p1:m_Item1>c68dec59-cf0a-455e-92a8-99ed3d5bf0d8.STATUSarmorWinbeat</d2p1:m_Item1>
+        <d2p1:m_Item2>OutputObject</d2p1:m_Item2>
+        <d2p1:m_Item3></d2p1:m_Item3>
+        <d2p1:m_Item4>STATUSarmorWinbeat</d2p1:m_Item4>
+      </d2p1:TupleOfstringstringstringstring>
+      <d2p1:TupleOfstringstringstringstring>
+        <d2p1:m_Item1>c68dec59-cf0a-455e-92a8-99ed3d5bf0d8.STATUSarmorQualys</d2p1:m_Item1>
+        <d2p1:m_Item2>OutputObject</d2p1:m_Item2>
+        <d2p1:m_Item3></d2p1:m_Item3>
+        <d2p1:m_Item4>STATUSarmorQualys</d2p1:m_Item4>
+      </d2p1:TupleOfstringstringstringstring>
+      <d2p1:TupleOfstringstringstringstring>
+        <d2p1:m_Item1>c68dec59-cf0a-455e-92a8-99ed3d5bf0d8.STATUSarmorTrendAgent</d2p1:m_Item1>
+        <d2p1:m_Item2>OutputObject</d2p1:m_Item2>
+        <d2p1:m_Item3></d2p1:m_Item3>
+        <d2p1:m_Item4>STATUSarmorTrendAgent</d2p1:m_Item4>
+      </d2p1:TupleOfstringstringstringstring>
+      <d2p1:TupleOfstringstringstringstring>
+        <d2p1:m_Item1>c68dec59-cf0a-455e-92a8-99ed3d5bf0d8.STATUSarmorTrendMonitor</d2p1:m_Item1>
+        <d2p1:m_Item2>OutputObject</d2p1:m_Item2>
+        <d2p1:m_Item3></d2p1:m_Item3>
+        <d2p1:m_Item4>STATUSarmorTrendMonitor</d2p1:m_Item4>
+      </d2p1:TupleOfstringstringstringstring>
+      <d2p1:TupleOfstringstringstringstring>
+        <d2p1:m_Item1>c68dec59-cf0a-455e-92a8-99ed3d5bf0d8.STATUSarmorTrendNotifier</d2p1:m_Item1>
+        <d2p1:m_Item2>OutputObject</d2p1:m_Item2>
+        <d2p1:m_Item3></d2p1:m_Item3>
+        <d2p1:m_Item4>STATUSarmorTrendNotifier</d2p1:m_Item4>
+      </d2p1:TupleOfstringstringstringstring>
+      <d2p1:TupleOfstringstringstringstring>
+        <d2p1:m_Item1>c68dec59-cf0a-455e-92a8-99ed3d5bf0d8.STATUSarmorTrendPlatform</d2p1:m_Item1>
+        <d2p1:m_Item2>OutputObject</d2p1:m_Item2>
+        <d2p1:m_Item3></d2p1:m_Item3>
+        <d2p1:m_Item4>STATUSarmorTrendPlatform</d2p1:m_Item4>
+      </d2p1:TupleOfstringstringstringstring>
+      <d2p1:TupleOfstringstringstringstring>
+        <d2p1:m_Item1>c68dec59-cf0a-455e-92a8-99ed3d5bf0d8.INSTALLEDarmorCore</d2p1:m_Item1>
+        <d2p1:m_Item2>OutputObject</d2p1:m_Item2>
+        <d2p1:m_Item3></d2p1:m_Item3>
+        <d2p1:m_Item4>INSTALLEDarmorCore</d2p1:m_Item4>
+      </d2p1:TupleOfstringstringstringstring>
+      <d2p1:TupleOfstringstringstringstring>
+        <d2p1:m_Item1>c68dec59-cf0a-455e-92a8-99ed3d5bf0d8.INSTALLEDarmorFilebeat</d2p1:m_Item1>
+        <d2p1:m_Item2>OutputObject</d2p1:m_Item2>
+        <d2p1:m_Item3></d2p1:m_Item3>
+        <d2p1:m_Item4>INSTALLEDarmorFilebeat</d2p1:m_Item4>
+      </d2p1:TupleOfstringstringstringstring>
+      <d2p1:TupleOfstringstringstringstring>
+        <d2p1:m_Item1>c68dec59-cf0a-455e-92a8-99ed3d5bf0d8.INSTALLEDarmorWinbeat</d2p1:m_Item1>
+        <d2p1:m_Item2>OutputObject</d2p1:m_Item2>
+        <d2p1:m_Item3></d2p1:m_Item3>
+        <d2p1:m_Item4>INSTALLEDarmorWinbeat</d2p1:m_Item4>
+      </d2p1:TupleOfstringstringstringstring>
+      <d2p1:TupleOfstringstringstringstring>
+        <d2p1:m_Item1>c68dec59-cf0a-455e-92a8-99ed3d5bf0d8.INSTALLEDarmorQualys</d2p1:m_Item1>
+        <d2p1:m_Item2>OutputObject</d2p1:m_Item2>
+        <d2p1:m_Item3></d2p1:m_Item3>
+        <d2p1:m_Item4>INSTALLEDarmorQualys</d2p1:m_Item4>
+      </d2p1:TupleOfstringstringstringstring>
+      <d2p1:TupleOfstringstringstringstring>
+        <d2p1:m_Item1>c68dec59-cf0a-455e-92a8-99ed3d5bf0d8.INSTALLEDarmorTrendAgent</d2p1:m_Item1>
+        <d2p1:m_Item2>OutputObject</d2p1:m_Item2>
+        <d2p1:m_Item3></d2p1:m_Item3>
+        <d2p1:m_Item4>INSTALLEDarmorTrendAgent</d2p1:m_Item4>
+      </d2p1:TupleOfstringstringstringstring>
+      <d2p1:TupleOfstringstringstringstring>
+        <d2p1:m_Item1>c68dec59-cf0a-455e-92a8-99ed3d5bf0d8.INSTALLEDarmorTrendMonitor</d2p1:m_Item1>
+        <d2p1:m_Item2>OutputObject</d2p1:m_Item2>
+        <d2p1:m_Item3></d2p1:m_Item3>
+        <d2p1:m_Item4>INSTALLEDarmorTrendMonitor</d2p1:m_Item4>
+      </d2p1:TupleOfstringstringstringstring>
+      <d2p1:TupleOfstringstringstringstring>
+        <d2p1:m_Item1>c68dec59-cf0a-455e-92a8-99ed3d5bf0d8.INSTALLEDarmorTrendNotifier</d2p1:m_Item1>
+        <d2p1:m_Item2>OutputObject</d2p1:m_Item2>
+        <d2p1:m_Item3></d2p1:m_Item3>
+        <d2p1:m_Item4>INSTALLEDarmorTrendNotifier</d2p1:m_Item4>
+      </d2p1:TupleOfstringstringstringstring>
+      <d2p1:TupleOfstringstringstringstring>
+        <d2p1:m_Item1>c68dec59-cf0a-455e-92a8-99ed3d5bf0d8.INSTALLEDarmorTrendPlatform</d2p1:m_Item1>
+        <d2p1:m_Item2>OutputObject</d2p1:m_Item2>
+        <d2p1:m_Item3></d2p1:m_Item3>
+        <d2p1:m_Item4>INSTALLEDarmorTrendPlatform</d2p1:m_Item4>
+      </d2p1:TupleOfstringstringstringstring>
+    </hashset>
+  </LinkManager>
+  <Diagnostics OriginalVersion="2.18.3.1" />
+  <Activity mc:Ignorable="sap sads" x:Class="Policy Builder" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mva="clr-namespace:Microsoft.VisualBasic.Activities;assembly=System.Activities" xmlns:p="clr-namespace:PolicyExecutor;assembly=PolicyExecutionEngine" xmlns:sads="http://schemas.microsoft.com/netfx/2010/xaml/activities/debugger" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=mscorlib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <x:Members>
+      <x:Property Name="PolicyGUID" Type="InArgument(x:String)" />
+    </x:Members>
+    <sap:VirtualizedContainerService.HintSize>504,745</sap:VirtualizedContainerService.HintSize>
+    <mva:VisualBasic.Settings>Assembly references and imported namespaces serialized as XML namespaces</mva:VisualBasic.Settings>
+    <p:PolicySequence DisplayName="Policy Builder" sap:VirtualizedContainerService.HintSize="504,745" mva:VisualBasic.Settings="Assembly references and imported namespaces serialized as XML namespaces">
+      <p:PolicySequence.Activities>
+        <p:RunPowerShellScript AssemblyName="PolicyExecutionEngine, Version=2.18.3.1, Culture=neutral, PublicKeyToken=null" DisplayName="Run PowerShell Script" sap:VirtualizedContainerService.HintSize="468,522" Moniker="c68dec59-cf0a-455e-92a8-99ed3d5bf0d8" OutPut_64="[RunPowerShellScript_OutPut_64]" Result="[RunPowerShellScript_Result]" ResultString="[RunPowerShellScript_ResultString]" Results_x64="[RunPowerShellScript_Results_x64]" RunAsCurrentLoggedOnUser="False" ScriptExecutionMethod="ExecuteDebug" TypeName="RunPowerShellScript" genArgEvent="efee52e5-2328-4b66-8d16-e5b9d88dbb87" m_bTextLinkChange="False" script="JABzAGMAcgBpAHAAdAA6AFMAVABBAFQAVQBTAGEAcgBtAG8AcgBDAG8AcgBlAD0AIgAiAA0ACgAkAHMAYwByAGkAcAB0ADoAUwBUAEEAVABVAFMAYQByAG0AbwByAEYAaQBsAGUAYgBlAGEAdAA9ACIAIgANAAoAJABzAGMAcgBpAHAAdAA6AFMAVABBAFQAVQBTAGEAcgBtAG8AcgBXAGkAbgBiAGUAYQB0AD0AIgAiAA0ACgAkAHMAYwByAGkAcAB0ADoAUwBUAEEAVABVAFMAYQByAG0AbwByAFEAdQBhAGwAeQBzAD0AIgAiAA0ACgAkAHMAYwByAGkAcAB0ADoAUwBUAEEAVABVAFMAYQByAG0AbwByAFQAcgBlAG4AZABBAGcAZQBuAHQAPQAiACIADQAKACQAcwBjAHIAaQBwAHQAOgBTAFQAQQBUAFUAUwBhAHIAbQBvAHIAVAByAGUAbgBkAE0AbwBuAGkAdABvAHIAPQAiACIADQAKACQAcwBjAHIAaQBwAHQAOgBTAFQAQQBUAFUAUwBhAHIAbQBvAHIAVAByAGUAbgBkAE4AbwB0AGkAZgBpAGUAcgA9ACIAIgANAAoAJABzAGMAcgBpAHAAdAA6AFMAVABBAFQAVQBTAGEAcgBtAG8AcgBUAHIAZQBuAGQAUABsAGEAdABmAG8AcgBtAD0AIgAiAA0ACgAkAHMAYwByAGkAcAB0ADoAcgBlAGIAbwBvAHQAUwB0AGEAdAB1AHMAPQAiACIADQAKACQAcwBjAHIAaQBwAHQAOgBJAE4AUwBUAEEATABMAEUARABhAHIAbQBvAHIAQwBvAHIAZQA9ACIAIgANAAoAJABzAGMAcgBpAHAAdAA6AEkATgBTAFQAQQBMAEwARQBEAGEAcgBtAG8AcgBGAGkAbABlAGIAZQBhAHQAPQAiACIADQAKACQAcwBjAHIAaQBwAHQAOgBJAE4AUwBUAEEATABMAEUARABhAHIAbQBvAHIAVwBpAG4AYgBlAGEAdAA9ACIAIgANAAoAJABzAGMAcgBpAHAAdAA6AEkATgBTAFQAQQBMAEwARQBEAGEAcgBtAG8AcgBRAHUAYQBsAHkAcwA9ACIAIgANAAoAJABzAGMAcgBpAHAAdAA6AEkATgBTAFQAQQBMAEwARQBEAGEAcgBtAG8AcgBUAHIAZQBuAGQAQQBnAGUAbgB0AD0AIgAiAA0ACgAkAHMAYwByAGkAcAB0ADoASQBOAFMAVABBAEwATABFAEQAYQByAG0AbwByAFQAcgBlAG4AZABNAG8AbgBpAHQAbwByAD0AIgAiAA0ACgAkAHMAYwByAGkAcAB0ADoASQBOAFMAVABBAEwATABFAEQAYQByAG0AbwByAFQAcgBlAG4AZABOAG8AdABpAGYAaQBlAHIAPQAiACIADQAKACQAcwBjAHIAaQBwAHQAOgBJAE4AUwBUAEEATABMAEUARABhAHIAbQBvAHIAVAByAGUAbgBkAFAAbABhAHQAZgBvAHIAbQA9ACIAIgANAAoADQAKACQAcwBjAHIAaQBwAHQAOgBzAGUAcgB2AGUAcgA9ACIATABvAGMAYQBsAGgAbwBzAHQAIgANAAoADQAKAFsAQQByAHIAYQB5AF0AIAAkAFMAZQByAHYAaQBjAGUAcwAgAD0AIAAnAEEAbQBhAHoAbwBuACAAUwBTAE0AIABBAGcAZQBuAHQAJwAsACcAQQByAG0AbwByACAAQwBvAHIAZQAnACwAJwBhAHIAbQBvAHIALQBmAGkAbABlAGIAZQBhAHQAJwAsACcAYQByAG0AbwByAC0AdwBpAG4AbABvAGcAYgBlAGEAdAAnACwAJwBRAHUAYQBsAHkAcwAgAEMAbABvAHUAZAAgAEEAZwBlAG4AdAAnACwAJwBUAHIAZQBuAGQAIABNAGkAYwByAG8AIABEAGUAZQBwACAAUwBlAGMAdQByAGkAdAB5ACAAQQBnAGUAbgB0ACcALAAnAFQAcgBlAG4AZAAgAE0AaQBjAHIAbwAgAEQAZQBlAHAAIABTAGUAYwB1AHIAaQB0AHkAIABNAG8AbgBpAHQAbwByACcALAAnAFQAcgBlAG4AZAAgAE0AaQBjAHIAbwAgAEQAZQBlAHAAIABTAGUAYwB1AHIAaQB0AHkAIABOAG8AdABpAGYAaQBlAHIAJwAsACcAVAByAGUAbgBkACAATQBpAGMAcgBvACAAUwBvAGwAdQB0AGkAbwBuACAAUABsAGEAdABmAG8AcgBtACcALAAnAHMAcwBoAGQAJwAsACcAUgBlAG0AbwB0AGUAIABEAGUAcwBrAHQAbwBwACAAUwBlAHIAdgBpAGMAZQBzACcAOwANAAoADQAKAA0ACgBmAHUAbgBjAHQAaQBvAG4AIABzAGUAdABEAGUAZgBhAHUAbAB0AFYAYQBsAHUAZQBzACAAewANAAoACQAkAHMAYwByAGkAcAB0ADoAUwBUAEEAVABVAFMAYQByAG0AbwByAEMAbwByAGUAPQAiAFUAbgBrAG4AbwB3AG4AIgANAAoACQAkAHMAYwByAGkAcAB0ADoAUwBUAEEAVABVAFMAYQByAG0AbwByAEYAaQBsAGUAYgBlAGEAdAA9ACIAVQBuAGsAbgBvAHcAbgAiAA0ACgAJACQAcwBjAHIAaQBwAHQAOgBTAFQAQQBUAFUAUwBhAHIAbQBvAHIAVwBpAG4AYgBlAGEAdAA9ACIAVQBuAGsAbgBvAHcAbgAiAA0ACgAJACQAcwBjAHIAaQBwAHQAOgBTAFQAQQBUAFUAUwBhAHIAbQBvAHIAUQB1AGEAbAB5AHMAPQAiAFUAbgBrAG4AbwB3AG4AIgANAAoACQAkAHMAYwByAGkAcAB0ADoAUwBUAEEAVABVAFMAYQByAG0AbwByAFQAcgBlAG4AZABBAGcAZQBuAHQAPQAiAFUAbgBrAG4AbwB3AG4AIgANAAoACQAkAHMAYwByAGkAcAB0ADoAUwBUAEEAVABVAFMAYQByAG0AbwByAFQAcgBlAG4AZABNAG8AbgBpAHQAbwByAD0AIgBVAG4AawBuAG8AdwBuACIADQAKAAkAJABzAGMAcgBpAHAAdAA6AFMAVABBAFQAVQBTAGEAcgBtAG8AcgBUAHIAZQBuAGQATgBvAHQAaQBmAGkAZQByAD0AIgBVAG4AawBuAG8AdwBuACIADQAKAAkAJABzAGMAcgBpAHAAdAA6AFMAVABBAFQAVQBTAGEAcgBtAG8AcgBUAHIAZQBuAGQAUABsAGEAdABmAG8AcgBtAD0AIgBVAG4AawBuAG8AdwBuACIADQAKAAkAJABzAGMAcgBpAHAAdAA6AHIAZQBiAG8AbwB0AFMAdABhAHQAdQBzAD0AIgBVAG4AawBuAG8AdwBuACIADQAKAAkAJABzAGMAcgBpAHAAdAA6AEkATgBTAFQAQQBMAEwARQBEAGEAcgBtAG8AcgBDAG8AcgBlAD0AIgBVAG4AawBuAG8AdwBuACIADQAKAAkAJABzAGMAcgBpAHAAdAA6AEkATgBTAFQAQQBMAEwARQBEAGEAcgBtAG8AcgBGAGkAbABlAGIAZQBhAHQAPQAiAFUAbgBrAG4AbwB3AG4AIgANAAoACQAkAHMAYwByAGkAcAB0ADoASQBOAFMAVABBAEwATABFAEQAYQByAG0AbwByAFcAaQBuAGIAZQBhAHQAPQAiAFUAbgBrAG4AbwB3AG4AIgANAAoACQAkAHMAYwByAGkAcAB0ADoASQBOAFMAVABBAEwATABFAEQAYQByAG0AbwByAFEAdQBhAGwAeQBzAD0AIgBVAG4AawBuAG8AdwBuACIADQAKAAkAJABzAGMAcgBpAHAAdAA6AEkATgBTAFQAQQBMAEwARQBEAGEAcgBtAG8AcgBUAHIAZQBuAGQAQQBnAGUAbgB0AD0AIgBVAG4AawBuAG8AdwBuACIADQAKAAkAJABzAGMAcgBpAHAAdAA6AEkATgBTAFQAQQBMAEwARQBEAGEAcgBtAG8AcgBUAHIAZQBuAGQATQBvAG4AaQB0AG8AcgA9ACIAVQBuAGsAbgBvAHcAbgAiAA0ACgAJACQAcwBjAHIAaQBwAHQAOgBJAE4AUwBUAEEATABMAEUARABhAHIAbQBvAHIAVAByAGUAbgBkAE4AbwB0AGkAZgBpAGUAcgA9ACIAVQBuAGsAbgBvAHcAbgAiAA0ACgAJACQAcwBjAHIAaQBwAHQAOgBJAE4AUwBUAEEATABMAEUARABhAHIAbQBvAHIAVAByAGUAbgBkAFAAbABhAHQAZgBvAHIAbQA9ACIAVQBuAGsAbgBvAHcAbgAiAA0ACgAJACQAcwBjAHIAaQBwAHQAOgByAGUAYgBvAG8AdABTAHQAYQB0AHUAcwA9ACIAVQBuAGsAbgBvAHcAbgAiAA0ACgANAAoAfQANAAoADQAKAGYAdQBuAGMAdABpAG8AbgAgAEMAbwBuAGYAaQByAG0ALQBXAGkAbgBkAG8AdwBzAFMAZQByAHYAaQBjAGUASQBuAHMAdABhAGwAbABlAGQAKAAkAG4AYQBtAGUAKQANAAoAewAgACAAIAANAAoAIAAgACAAaQBmACAAKABHAGUAdAAtAFMAZQByAHYAaQBjAGUAIAAtAE4AYQBtAGUAIAAkAG4AYQBtAGUAIAAtAEMAbwBtAHAAdQB0AGUAcgBuAGEAbQBlACAAJABzAGMAcgBpAHAAdAA6AHMAZQByAHYAZQByACAALQBFAHIAcgBvAHIAQQBjAHQAaQBvAG4AIABTAGkAbABlAG4AdABsAHkAQwBvAG4AdABpAG4AdQBlACkADQAKACAAIAAgAHsADQAKACAAIAAgACAAIAAgACAAIwBXAHIAaQB0AGUALQBIAG8AcwB0ACAAIgAkAG4AYQBtAGUAIABFAHgAaQBzAHQAcwAgAG8AbgAgACQAcwBjAHIAaQBwAHQAOgBzAGUAcgB2AGUAcgAiAA0ACgAgACAAIAAgACAAIAAgAHIAZQB0AHUAcgBuACAAJwBJAG4AcwB0AGEAbABsAGUAZAAnAA0ACgAgACAAIAB9AA0ACgAgACAAIAAgACAAIAAgACMAVwByAGkAdABlAC0ASABvAHMAdAAgACIAJABuAGEAbQBlACAAZABvAGUAcwAgAG4AbwB0ACAAZQB4AGkAcwB0ACAAbwBuACAAJABzAGMAcgBpAHAAdAA6AHMAZQByAHYAZQByACIADQAKACAAIAAgACAAIAAgACAAcgBlAHQAdQByAG4AIAAnAE4AbwB0ACAASQBuAHMAdABhAGwAbABlAGQAJwANAAoAfQANAAoADQAKAGYAdQBuAGMAdABpAG8AbgAgAEMAbwBuAGYAaQByAG0ALQBBAHIAbQBvAHIAUwB1AGIAQQBnAGUAbgB0AFMAdABhAHQAdQBzACgAJABuAGEAbQBlACkADQAKAHsADQAKAAkAJABTAGUAcgB2AGkAYwBlACAAPQAgACQAbgBhAG0AZQANAAoAIAAgACAAIAAJACQAYQByAHIAUwBlAHIAdgBpAGMAZQAgAD0AIABHAGUAdAAtAFMAZQByAHYAaQBjAGUAIAAtAE4AYQBtAGUAIAAkAG4AYQBtAGUADQAKACAAIAAgACAACQAjAFcAcgBpAHQAZQAtAEgAbwBzAHQAIAAkAG4AYQBtAGUAIABpAHMAIAAkAGEAcgByAFMAZQByAHYAaQBjAGUALgBTAHQAYQB0AHUAcwANAAoACQByAGUAdAB1AHIAbgAgACQAYQByAHIAUwBlAHIAdgBpAGMAZQAuAFMAdABhAHQAdQBzAA0ACgANAAoAfQANAAoADQAKAGYAdQBuAGMAdABpAG8AbgAgAHAAcgBpAG4AdABTAHUAbQBtAGEAcgB5ACAAewANAAoACQAiAEEAcgBtAG8AcgAgAEMAbwByAGUAIABpAHMAIAAiACAAKwAgACQAcwBjAHIAaQBwAHQAOgBJAE4AUwBUAEEATABMAEUARABhAHIAbQBvAHIAQwBvAHIAZQAgACsAIAAiACAAYQBuAGQAIAAiACAAKwAgACQAcwBjAHIAaQBwAHQAOgBTAFQAQQBUAFUAUwBhAHIAbQBvAHIAQwBvAHIAZQANAAoACQAiAEEAcgBtAG8AcgAgAEwAbwBnAGIAZQBhAHQAIABpAHMAIAAiACAAKwAgACQAcwBjAHIAaQBwAHQAOgBJAE4AUwBUAEEATABMAEUARABhAHIAbQBvAHIARgBpAGwAZQBiAGUAYQB0ACAAKwAgACIAIABhAG4AZAAgACIAIAArACAAJABzAGMAcgBpAHAAdAA6AFMAVABBAFQAVQBTAGEAcgBtAG8AcgBGAGkAbABlAGIAZQBhAHQADQAKAAkAIgBBAHIAbQBvAHIAIABXAGkAbgBsAG8AZwBiAGUAYQB0ACAAaQBzACAAIgAgACsAIAAkAHMAYwByAGkAcAB0ADoASQBOAFMAVABBAEwATABFAEQAYQByAG0AbwByAFcAaQBuAGIAZQBhAHQAIAArACAAIgAgAGEAbgBkACAAIgAgACsAIAAkAHMAYwByAGkAcAB0ADoAUwBUAEEAVABVAFMAYQByAG0AbwByAFcAaQBuAGIAZQBhAHQADQAKAAkAIgBRAHUAYQBsAHkAcwAgAEMAbABvAHUAZAAgAEEAZwBlAG4AdAAgAGkAcwAgACIAIAArACAAJABzAGMAcgBpAHAAdAA6AEkATgBTAFQAQQBMAEwARQBEAGEAcgBtAG8AcgBRAHUAYQBsAHkAcwAgACsAIAAiACAAYQBuAGQAIAAiACAAKwAgACQAcwBjAHIAaQBwAHQAOgBTAFQAQQBUAFUAUwBhAHIAbQBvAHIAUQB1AGEAbAB5AHMADQAKAAkAIgBUAHIAZQBuAGQAIABNAGkAYwByAG8AIABEAGUAZQBwACAAUwBlAGMAdQByAGkAdAB5ACAAQQBnAGUAbgB0ACAAaQBzACAAIgAgACsAIAAkAHMAYwByAGkAcAB0ADoASQBOAFMAVABBAEwATABFAEQAYQByAG0AbwByAFQAcgBlAG4AZABBAGcAZQBuAHQAIAArACAAIgAgAGEAbgBkACAAIgAgACsAIAAkAHMAYwByAGkAcAB0ADoAUwBUAEEAVABVAFMAYQByAG0AbwByAFQAcgBlAG4AZABBAGcAZQBuAHQADQAKAAkAIgBUAHIAZQBuAGQAIABNAGkAYwByAG8AIABEAGUAZQBwACAAUwBlAGMAdQByAGkAdAB5ACAATQBvAG4AaQB0AG8AcgAgAGkAcwAgACIAIAArACAAJABzAGMAcgBpAHAAdAA6AEkATgBTAFQAQQBMAEwARQBEAGEAcgBtAG8AcgBUAHIAZQBuAGQATQBvAG4AaQB0AG8AcgAgACsAIAAiACAAYQBuAGQAIAAiACAAKwAgACQAcwBjAHIAaQBwAHQAOgBTAFQAQQBUAFUAUwBhAHIAbQBvAHIAVAByAGUAbgBkAE0AbwBuAGkAdABvAHIADQAKAAkAIgBUAHIAZQBuAGQAIABNAGkAYwByAG8AIABEAGUAZQBwACAAUwBlAGMAdQByAGkAdAB5ACAATgBvAHQAaQBmAGkAZQByACAAaQBzACAAIgAgACsAIAAkAHMAYwByAGkAcAB0ADoASQBOAFMAVABBAEwATABFAEQAYQByAG0AbwByAFQAcgBlAG4AZABOAG8AdABpAGYAaQBlAHIAIAArACAAIgAgAGEAbgBkACAAIgAgACsAIAAkAHMAYwByAGkAcAB0ADoAUwBUAEEAVABVAFMAYQByAG0AbwByAFQAcgBlAG4AZABOAG8AdABpAGYAaQBlAHIADQAKAAkAIgBUAHIAZQBuAGQAIABNAGkAYwByAG8AIABTAG8AbAB1AHQAaQBvAG4AIABQAGwAYQB0AGYAbwByAG0AIABpAHMAIAAiACAAKwAgACQAcwBjAHIAaQBwAHQAOgBJAE4AUwBUAEEATABMAEUARABhAHIAbQBvAHIAVAByAGUAbgBkAFAAbABhAHQAZgBvAHIAbQAgACsAIAAiACAAYQBuAGQAIAAiACAAKwAgACQAcwBjAHIAaQBwAHQAOgBTAFQAQQBUAFUAUwBhAHIAbQBvAHIAVAByAGUAbgBkAFAAbABhAHQAZgBvAHIAbQANAAoAfQANAAoADQAKACQAUwBlAHIAdgBpAGMAZQBOAGEAbQBlAD0AJwBBAHIAbQBvAHIAIABDAG8AcgBlACcADQAKACQAcwBjAHIAaQBwAHQAOgBTAFQAQQBUAFUAUwBhAHIAbQBvAHIAQwBvAHIAZQA9AEMAbwBuAGYAaQByAG0ALQBBAHIAbQBvAHIAUwB1AGIAQQBnAGUAbgB0AFMAdABhAHQAdQBzACgAJABTAGUAcgB2AGkAYwBlAE4AYQBtAGUAKQANAAoAJABzAGMAcgBpAHAAdAA6AEkATgBTAFQAQQBMAEwARQBEAGEAcgBtAG8AcgBDAG8AcgBlAD0AQwBvAG4AZgBpAHIAbQAtAFcAaQBuAGQAbwB3AHMAUwBlAHIAdgBpAGMAZQBJAG4AcwB0AGEAbABsAGUAZAAoACQAUwBlAHIAdgBpAGMAZQBOAGEAbQBlACkADQAKACQAUwBlAHIAdgBpAGMAZQBOAGEAbQBlAD0AJwBhAHIAbQBvAHIALQBmAGkAbABlAGIAZQBhAHQAJwANAAoAJABzAGMAcgBpAHAAdAA6AFMAVABBAFQAVQBTAGEAcgBtAG8AcgBGAGkAbABlAGIAZQBhAHQAPQBDAG8AbgBmAGkAcgBtAC0AQQByAG0AbwByAFMAdQBiAEEAZwBlAG4AdABTAHQAYQB0AHUAcwAoACQAUwBlAHIAdgBpAGMAZQBOAGEAbQBlACkADQAKACQAcwBjAHIAaQBwAHQAOgBJAE4AUwBUAEEATABMAEUARABhAHIAbQBvAHIARgBpAGwAZQBiAGUAYQB0AD0AQwBvAG4AZgBpAHIAbQAtAFcAaQBuAGQAbwB3AHMAUwBlAHIAdgBpAGMAZQBJAG4AcwB0AGEAbABsAGUAZAAoACQAUwBlAHIAdgBpAGMAZQBOAGEAbQBlACkADQAKACQAUwBlAHIAdgBpAGMAZQBOAGEAbQBlAD0AJwBhAHIAbQBvAHIALQB3AGkAbgBsAG8AZwBiAGUAYQB0ACcADQAKACQAcwBjAHIAaQBwAHQAOgBTAFQAQQBUAFUAUwBhAHIAbQBvAHIAVwBpAG4AYgBlAGEAdAA9AEMAbwBuAGYAaQByAG0ALQBBAHIAbQBvAHIAUwB1AGIAQQBnAGUAbgB0AFMAdABhAHQAdQBzACgAJABTAGUAcgB2AGkAYwBlAE4AYQBtAGUAKQANAAoAJABzAGMAcgBpAHAAdAA6AEkATgBTAFQAQQBMAEwARQBEAGEAcgBtAG8AcgBXAGkAbgBiAGUAYQB0AD0AQwBvAG4AZgBpAHIAbQAtAFcAaQBuAGQAbwB3AHMAUwBlAHIAdgBpAGMAZQBJAG4AcwB0AGEAbABsAGUAZAAoACQAUwBlAHIAdgBpAGMAZQBOAGEAbQBlACkADQAKACQAUwBlAHIAdgBpAGMAZQBOAGEAbQBlAD0AJwBRAHUAYQBsAHkAcwAgAEMAbABvAHUAZAAgAEEAZwBlAG4AdAAnAA0ACgAkAHMAYwByAGkAcAB0ADoAUwBUAEEAVABVAFMAYQByAG0AbwByAFEAdQBhAGwAeQBzAD0AQwBvAG4AZgBpAHIAbQAtAEEAcgBtAG8AcgBTAHUAYgBBAGcAZQBuAHQAUwB0AGEAdAB1AHMAKAAkAFMAZQByAHYAaQBjAGUATgBhAG0AZQApAA0ACgAkAHMAYwByAGkAcAB0ADoASQBOAFMAVABBAEwATABFAEQAYQByAG0AbwByAFEAdQBhAGwAeQBzAD0AQwBvAG4AZgBpAHIAbQAtAFcAaQBuAGQAbwB3AHMAUwBlAHIAdgBpAGMAZQBJAG4AcwB0AGEAbABsAGUAZAAoACQAUwBlAHIAdgBpAGMAZQBOAGEAbQBlACkADQAKACQAUwBlAHIAdgBpAGMAZQBOAGEAbQBlAD0AJwBUAHIAZQBuAGQAIABNAGkAYwByAG8AIABEAGUAZQBwACAAUwBlAGMAdQByAGkAdAB5ACAAQQBnAGUAbgB0ACcADQAKACQAcwBjAHIAaQBwAHQAOgBTAFQAQQBUAFUAUwBhAHIAbQBvAHIAVAByAGUAbgBkAEEAZwBlAG4AdAA9AEMAbwBuAGYAaQByAG0ALQBBAHIAbQBvAHIAUwB1AGIAQQBnAGUAbgB0AFMAdABhAHQAdQBzACgAJABTAGUAcgB2AGkAYwBlAE4AYQBtAGUAKQANAAoAJABzAGMAcgBpAHAAdAA6AEkATgBTAFQAQQBMAEwARQBEAGEAcgBtAG8AcgBUAHIAZQBuAGQAQQBnAGUAbgB0AD0AQwBvAG4AZgBpAHIAbQAtAFcAaQBuAGQAbwB3AHMAUwBlAHIAdgBpAGMAZQBJAG4AcwB0AGEAbABsAGUAZAAoACQAUwBlAHIAdgBpAGMAZQBOAGEAbQBlACkADQAKACQAUwBlAHIAdgBpAGMAZQBOAGEAbQBlAD0AJwBUAHIAZQBuAGQAIABNAGkAYwByAG8AIABEAGUAZQBwACAAUwBlAGMAdQByAGkAdAB5ACAATQBvAG4AaQB0AG8AcgAnAA0ACgAkAHMAYwByAGkAcAB0ADoAUwBUAEEAVABVAFMAYQByAG0AbwByAFQAcgBlAG4AZABNAG8AbgBpAHQAbwByAD0AQwBvAG4AZgBpAHIAbQAtAEEAcgBtAG8AcgBTAHUAYgBBAGcAZQBuAHQAUwB0AGEAdAB1AHMAKAAkAFMAZQByAHYAaQBjAGUATgBhAG0AZQApAA0ACgAkAHMAYwByAGkAcAB0ADoASQBOAFMAVABBAEwATABFAEQAYQByAG0AbwByAFQAcgBlAG4AZABNAG8AbgBpAHQAbwByAD0AQwBvAG4AZgBpAHIAbQAtAFcAaQBuAGQAbwB3AHMAUwBlAHIAdgBpAGMAZQBJAG4AcwB0AGEAbABsAGUAZAAoACQAUwBlAHIAdgBpAGMAZQBOAGEAbQBlACkADQAKACQAUwBlAHIAdgBpAGMAZQBOAGEAbQBlAD0AJwBUAHIAZQBuAGQAIABNAGkAYwByAG8AIABEAGUAZQBwACAAUwBlAGMAdQByAGkAdAB5ACAATgBvAHQAaQBmAGkAZQByACcADQAKACQAcwBjAHIAaQBwAHQAOgBTAFQAQQBUAFUAUwBhAHIAbQBvAHIAVAByAGUAbgBkAE4AbwB0AGkAZgBpAGUAcgA9AEMAbwBuAGYAaQByAG0ALQBBAHIAbQBvAHIAUwB1AGIAQQBnAGUAbgB0AFMAdABhAHQAdQBzACgAJABTAGUAcgB2AGkAYwBlAE4AYQBtAGUAKQANAAoAJABzAGMAcgBpAHAAdAA6AEkATgBTAFQAQQBMAEwARQBEAGEAcgBtAG8AcgBUAHIAZQBuAGQATgBvAHQAaQBmAGkAZQByAD0AQwBvAG4AZgBpAHIAbQAtAFcAaQBuAGQAbwB3AHMAUwBlAHIAdgBpAGMAZQBJAG4AcwB0AGEAbABsAGUAZAAoACQAUwBlAHIAdgBpAGMAZQBOAGEAbQBlACkADQAKACQAUwBlAHIAdgBpAGMAZQBOAGEAbQBlAD0AJwBUAHIAZQBuAGQAIABNAGkAYwByAG8AIABTAG8AbAB1AHQAaQBvAG4AIABQAGwAYQB0AGYAbwByAG0AJwANAAoAJABzAGMAcgBpAHAAdAA6AFMAVABBAFQAVQBTAGEAcgBtAG8AcgBUAHIAZQBuAGQAUABsAGEAdABmAG8AcgBtAD0AQwBvAG4AZgBpAHIAbQAtAEEAcgBtAG8AcgBTAHUAYgBBAGcAZQBuAHQAUwB0AGEAdAB1AHMAKAAkAFMAZQByAHYAaQBjAGUATgBhAG0AZQApAA0ACgAkAHMAYwByAGkAcAB0ADoASQBOAFMAVABBAEwATABFAEQAYQByAG0AbwByAFQAcgBlAG4AZABQAGwAYQB0AGYAbwByAG0APQBDAG8AbgBmAGkAcgBtAC0AVwBpAG4AZABvAHcAcwBTAGUAcgB2AGkAYwBlAEkAbgBzAHQAYQBsAGwAZQBkACgAJABTAGUAcgB2AGkAYwBlAE4AYQBtAGUAKQANAAoADQAKAHAAcgBpAG4AdABTAHUAbQBtAGEAcgB5AA0ACgANAAoAJABTAFQAQQBUAFUAUwBhAHIAbQBvAHIAQwBvAHIAZQA9ACQAcwBjAHIAaQBwAHQAOgBTAFQAQQBUAFUAUwBhAHIAbQBvAHIAQwBvAHIAZQANAAoAJABTAFQAQQBUAFUAUwBhAHIAbQBvAHIARgBpAGwAZQBiAGUAYQB0AD0AJABzAGMAcgBpAHAAdAA6AFMAVABBAFQAVQBTAGEAcgBtAG8AcgBGAGkAbABlAGIAZQBhAHQADQAKACQAUwBUAEEAVABVAFMAYQByAG0AbwByAFcAaQBuAGIAZQBhAHQAPQAkAHMAYwByAGkAcAB0ADoAUwBUAEEAVABVAFMAYQByAG0AbwByAFcAaQBuAGIAZQBhAHQADQAKACQAUwBUAEEAVABVAFMAYQByAG0AbwByAFEAdQBhAGwAeQBzAD0AJABzAGMAcgBpAHAAdAA6AFMAVABBAFQAVQBTAGEAcgBtAG8AcgBRAHUAYQBsAHkAcwANAAoAJABTAFQAQQBUAFUAUwBhAHIAbQBvAHIAVAByAGUAbgBkAEEAZwBlAG4AdAA9ACQAcwBjAHIAaQBwAHQAOgBTAFQAQQBUAFUAUwBhAHIAbQBvAHIAVAByAGUAbgBkAEEAZwBlAG4AdAANAAoAJABTAFQAQQBUAFUAUwBhAHIAbQBvAHIAVAByAGUAbgBkAE0AbwBuAGkAdABvAHIAPQAkAHMAYwByAGkAcAB0ADoAUwBUAEEAVABVAFMAYQByAG0AbwByAFQAcgBlAG4AZABNAG8AbgBpAHQAbwByAA0ACgAkAFMAVABBAFQAVQBTAGEAcgBtAG8AcgBUAHIAZQBuAGQATgBvAHQAaQBmAGkAZQByAD0AJABzAGMAcgBpAHAAdAA6AFMAVABBAFQAVQBTAGEAcgBtAG8AcgBUAHIAZQBuAGQATgBvAHQAaQBmAGkAZQByAA0ACgAkAFMAVABBAFQAVQBTAGEAcgBtAG8AcgBUAHIAZQBuAGQAUABsAGEAdABmAG8AcgBtAD0AJABzAGMAcgBpAHAAdAA6AFMAVABBAFQAVQBTAGEAcgBtAG8AcgBUAHIAZQBuAGQAUABsAGEAdABmAG8AcgBtAA0ACgAkAHIAZQBiAG8AbwB0AFMAdABhAHQAdQBzAD0AJABzAGMAcgBpAHAAdAA6AHIAZQBiAG8AbwB0AFMAdABhAHQAdQBzAA0ACgAkAEkATgBTAFQAQQBMAEwARQBEAGEAcgBtAG8AcgBDAG8AcgBlAD0AJABzAGMAcgBpAHAAdAA6AEkATgBTAFQAQQBMAEwARQBEAGEAcgBtAG8AcgBDAG8AcgBlAA0ACgAkAEkATgBTAFQAQQBMAEwARQBEAGEAcgBtAG8AcgBGAGkAbABlAGIAZQBhAHQAPQAkAHMAYwByAGkAcAB0ADoASQBOAFMAVABBAEwATABFAEQAYQByAG0AbwByAEYAaQBsAGUAYgBlAGEAdAANAAoAJABJAE4AUwBUAEEATABMAEUARABhAHIAbQBvAHIAVwBpAG4AYgBlAGEAdAA9ACQAcwBjAHIAaQBwAHQAOgBJAE4AUwBUAEEATABMAEUARABhAHIAbQBvAHIAVwBpAG4AYgBlAGEAdAANAAoAJABJAE4AUwBUAEEATABMAEUARABhAHIAbQBvAHIAUQB1AGEAbAB5AHMAPQAkAHMAYwByAGkAcAB0ADoASQBOAFMAVABBAEwATABFAEQAYQByAG0AbwByAFEAdQBhAGwAeQBzAA0ACgAkAEkATgBTAFQAQQBMAEwARQBEAGEAcgBtAG8AcgBUAHIAZQBuAGQAQQBnAGUAbgB0AD0AJABzAGMAcgBpAHAAdAA6AEkATgBTAFQAQQBMAEwARQBEAGEAcgBtAG8AcgBUAHIAZQBuAGQAQQBnAGUAbgB0AA0ACgAkAEkATgBTAFQAQQBMAEwARQBEAGEAcgBtAG8AcgBUAHIAZQBuAGQATQBvAG4AaQB0AG8AcgA9ACQAcwBjAHIAaQBwAHQAOgBJAE4AUwBUAEEATABMAEUARABhAHIAbQBvAHIAVAByAGUAbgBkAE0AbwBuAGkAdABvAHIADQAKACQASQBOAFMAVABBAEwATABFAEQAYQByAG0AbwByAFQAcgBlAG4AZABOAG8AdABpAGYAaQBlAHIAPQAkAHMAYwByAGkAcAB0ADoASQBOAFMAVABBAEwATABFAEQAYQByAG0AbwByAFQAcgBlAG4AZABOAG8AdABpAGYAaQBlAHIADQAKACQASQBOAFMAVABBAEwATABFAEQAYQByAG0AbwByAFQAcgBlAG4AZABQAGwAYQB0AGYAbwByAG0APQAkAHMAYwByAGkAcAB0ADoASQBOAFMAVABBAEwATABFAEQAYQByAG0AbwByAFQAcgBlAG4AZABQAGwAYQB0AGYAbwByAG0ADQAKAA==">
+          <p:RunPowerShellScript.InArgs>
+            <scg:Dictionary x:TypeArguments="x:String, p:InArg" />
+          </p:RunPowerShellScript.InArgs>
+          <p:RunPowerShellScript.OutArgs>
+            <p:OutArg x:Key="STATUSarmorCore" ArgType="string" DisplayName="STATUSarmorCore" Name="STATUSarmorCore">
+              <p:OutArg.Arg>
+                <OutArgument x:TypeArguments="x:String">[RunPowerShellScript_STATUSarmorCore]</OutArgument>
+              </p:OutArg.Arg>
+            </p:OutArg>
+            <p:OutArg x:Key="STATUSarmorFilebeat" ArgType="string" DisplayName="STATUSarmorFilebeat" Name="STATUSarmorFilebeat">
+              <p:OutArg.Arg>
+                <OutArgument x:TypeArguments="x:String">[RunPowerShellScript_STATUSarmorFilebeat]</OutArgument>
+              </p:OutArg.Arg>
+            </p:OutArg>
+            <p:OutArg x:Key="STATUSarmorWinbeat" ArgType="string" DisplayName="STATUSarmorWinbeat" Name="STATUSarmorWinbeat">
+              <p:OutArg.Arg>
+                <OutArgument x:TypeArguments="x:String">[RunPowerShellScript_STATUSarmorWinbeat]</OutArgument>
+              </p:OutArg.Arg>
+            </p:OutArg>
+            <p:OutArg x:Key="STATUSarmorQualys" ArgType="string" DisplayName="STATUSarmorQualys" Name="STATUSarmorQualys">
+              <p:OutArg.Arg>
+                <OutArgument x:TypeArguments="x:String">[RunPowerShellScript_STATUSarmorQualys]</OutArgument>
+              </p:OutArg.Arg>
+            </p:OutArg>
+            <p:OutArg x:Key="STATUSarmorTrendAgent" ArgType="string" DisplayName="STATUSarmorTrendAgent" Name="STATUSarmorTrendAgent">
+              <p:OutArg.Arg>
+                <OutArgument x:TypeArguments="x:String">[RunPowerShellScript_STATUSarmorTrendAgent]</OutArgument>
+              </p:OutArg.Arg>
+            </p:OutArg>
+            <p:OutArg x:Key="STATUSarmorTrendMonitor" ArgType="string" DisplayName="STATUSarmorTrendMonitor" Name="STATUSarmorTrendMonitor">
+              <p:OutArg.Arg>
+                <OutArgument x:TypeArguments="x:String">[RunPowerShellScript_STATUSarmorTrendMonitor]</OutArgument>
+              </p:OutArg.Arg>
+            </p:OutArg>
+            <p:OutArg x:Key="STATUSarmorTrendNotifier" ArgType="string" DisplayName="STATUSarmorTrendNotifier" Name="STATUSarmorTrendNotifier">
+              <p:OutArg.Arg>
+                <OutArgument x:TypeArguments="x:String">[RunPowerShellScript_STATUSarmorTrendNotifier]</OutArgument>
+              </p:OutArg.Arg>
+            </p:OutArg>
+            <p:OutArg x:Key="STATUSarmorTrendPlatform" ArgType="string" DisplayName="STATUSarmorTrendPlatform" Name="STATUSarmorTrendPlatform">
+              <p:OutArg.Arg>
+                <OutArgument x:TypeArguments="x:String">[RunPowerShellScript_STATUSarmorTrendPlatform]</OutArgument>
+              </p:OutArg.Arg>
+            </p:OutArg>
+            <p:OutArg x:Key="INSTALLEDarmorCore" ArgType="string" DisplayName="INSTALLEDarmorCore" Name="INSTALLEDarmorCore">
+              <p:OutArg.Arg>
+                <OutArgument x:TypeArguments="x:String">[RunPowerShellScript_INSTALLEDarmorCore]</OutArgument>
+              </p:OutArg.Arg>
+            </p:OutArg>
+            <p:OutArg x:Key="INSTALLEDarmorFilebeat" ArgType="string" DisplayName="INSTALLEDarmorFilebeat" Name="INSTALLEDarmorFilebeat">
+              <p:OutArg.Arg>
+                <OutArgument x:TypeArguments="x:String">[RunPowerShellScript_INSTALLEDarmorFilebeat]</OutArgument>
+              </p:OutArg.Arg>
+            </p:OutArg>
+            <p:OutArg x:Key="INSTALLEDarmorWinbeat" ArgType="string" DisplayName="INSTALLEDarmorWinbeat" Name="INSTALLEDarmorWinbeat">
+              <p:OutArg.Arg>
+                <OutArgument x:TypeArguments="x:String">[RunPowerShellScript_INSTALLEDarmorWinbeat]</OutArgument>
+              </p:OutArg.Arg>
+            </p:OutArg>
+            <p:OutArg x:Key="INSTALLEDarmorQualys" ArgType="string" DisplayName="INSTALLEDarmorQualys" Name="INSTALLEDarmorQualys">
+              <p:OutArg.Arg>
+                <OutArgument x:TypeArguments="x:String">[RunPowerShellScript_INSTALLEDarmorQualys]</OutArgument>
+              </p:OutArg.Arg>
+            </p:OutArg>
+            <p:OutArg x:Key="INSTALLEDarmorTrendAgent" ArgType="string" DisplayName="INSTALLEDarmorTrendAgent" Name="INSTALLEDarmorTrendAgent">
+              <p:OutArg.Arg>
+                <OutArgument x:TypeArguments="x:String">[RunPowerShellScript_INSTALLEDarmorTrendAgent]</OutArgument>
+              </p:OutArg.Arg>
+            </p:OutArg>
+            <p:OutArg x:Key="INSTALLEDarmorTrendMonitor" ArgType="string" DisplayName="INSTALLEDarmorTrendMonitor" Name="INSTALLEDarmorTrendMonitor">
+              <p:OutArg.Arg>
+                <OutArgument x:TypeArguments="x:String">[RunPowerShellScript_INSTALLEDarmorTrendMonitor]</OutArgument>
+              </p:OutArg.Arg>
+            </p:OutArg>
+            <p:OutArg x:Key="INSTALLEDarmorTrendNotifier" ArgType="string" DisplayName="INSTALLEDarmorTrendNotifier" Name="INSTALLEDarmorTrendNotifier">
+              <p:OutArg.Arg>
+                <OutArgument x:TypeArguments="x:String">[RunPowerShellScript_INSTALLEDarmorTrendNotifier]</OutArgument>
+              </p:OutArg.Arg>
+            </p:OutArg>
+            <p:OutArg x:Key="INSTALLEDarmorTrendPlatform" ArgType="string" DisplayName="INSTALLEDarmorTrendPlatform" Name="INSTALLEDarmorTrendPlatform">
+              <p:OutArg.Arg>
+                <OutArgument x:TypeArguments="x:String">[RunPowerShellScript_INSTALLEDarmorTrendPlatform]</OutArgument>
+              </p:OutArg.Arg>
+            </p:OutArg>
+          </p:RunPowerShellScript.OutArgs>
+        </p:RunPowerShellScript>
+      </p:PolicySequence.Activities>
+      <p:PolicySequence.Variables>
+        <Variable x:TypeArguments="x:String" Name="RunPowerShellScript_OutPut_64" />
+        <Variable x:TypeArguments="x:String" Name="RunPowerShellScript_ResultString" />
+        <Variable x:TypeArguments="scg:IEnumerable(x:Object)" Name="RunPowerShellScript_Results_x64" />
+        <Variable x:TypeArguments="x:Double" Name="RunPowerShellScript_Result" />
+        <Variable x:TypeArguments="x:String" Name="RunPowerShellScript_STATUSarmorCore" />
+        <Variable x:TypeArguments="x:String" Name="RunPowerShellScript_STATUSarmorFilebeat" />
+        <Variable x:TypeArguments="x:String" Name="RunPowerShellScript_STATUSarmorWinbeat" />
+        <Variable x:TypeArguments="x:String" Name="RunPowerShellScript_STATUSarmorQualys" />
+        <Variable x:TypeArguments="x:String" Name="RunPowerShellScript_STATUSarmorTrendAgent" />
+        <Variable x:TypeArguments="x:String" Name="RunPowerShellScript_STATUSarmorTrendMonitor" />
+        <Variable x:TypeArguments="x:String" Name="RunPowerShellScript_STATUSarmorTrendNotifier" />
+        <Variable x:TypeArguments="x:String" Name="RunPowerShellScript_STATUSarmorTrendPlatform" />
+        <Variable x:TypeArguments="x:String" Name="RunPowerShellScript_INSTALLEDarmorCore" />
+        <Variable x:TypeArguments="x:String" Name="RunPowerShellScript_INSTALLEDarmorFilebeat" />
+        <Variable x:TypeArguments="x:String" Name="RunPowerShellScript_INSTALLEDarmorWinbeat" />
+        <Variable x:TypeArguments="x:String" Name="RunPowerShellScript_INSTALLEDarmorQualys" />
+        <Variable x:TypeArguments="x:String" Name="RunPowerShellScript_INSTALLEDarmorTrendAgent" />
+        <Variable x:TypeArguments="x:String" Name="RunPowerShellScript_INSTALLEDarmorTrendMonitor" />
+        <Variable x:TypeArguments="x:String" Name="RunPowerShellScript_INSTALLEDarmorTrendNotifier" />
+        <Variable x:TypeArguments="x:String" Name="RunPowerShellScript_INSTALLEDarmorTrendPlatform" />
+      </p:PolicySequence.Variables>
+    </p:PolicySequence>
+  </Activity>
+</Policy>
